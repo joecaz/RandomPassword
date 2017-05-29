@@ -13,6 +13,8 @@
 		EB727D441EDB97E3005A678D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB727D421EDB97E3005A678D /* Main.storyboard */; };
 		EB727D4F1EDB97E3005A678D /* RandomPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB727D4E1EDB97E3005A678D /* RandomPasswordTests.swift */; };
 		EB727D5A1EDB97E3005A678D /* RandomPasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB727D591EDB97E3005A678D /* RandomPasswordUITests.swift */; };
+		EB727D691EDB99A8005A678D /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB727D671EDB99A8005A678D /* MainWindowController.swift */; };
+		EB727D6A1EDB99A8005A678D /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB727D681EDB99A8005A678D /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		EB727D551EDB97E3005A678D /* RandomPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB727D591EDB97E3005A678D /* RandomPasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPasswordUITests.swift; sourceTree = "<group>"; };
 		EB727D5B1EDB97E3005A678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB727D671EDB99A8005A678D /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		EB727D681EDB99A8005A678D /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		EB727D301EDB97E3005A678D = {
 			isa = PBXGroup;
 			children = (
+				EB727D671EDB99A8005A678D /* MainWindowController.swift */,
+				EB727D681EDB99A8005A678D /* MainWindowController.xib */,
 				EB727D3B1EDB97E3005A678D /* RandomPassword */,
 				EB727D4D1EDB97E3005A678D /* RandomPasswordTests */,
 				EB727D581EDB97E3005A678D /* RandomPasswordUITests */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB727D411EDB97E3005A678D /* Assets.xcassets in Resources */,
+				EB727D6A1EDB99A8005A678D /* MainWindowController.xib in Resources */,
 				EB727D441EDB97E3005A678D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			files = (
 				EB727D3F1EDB97E3005A678D /* ViewController.swift in Sources */,
 				EB727D3D1EDB97E3005A678D /* AppDelegate.swift in Sources */,
+				EB727D691EDB99A8005A678D /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
